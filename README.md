@@ -6,9 +6,9 @@
  - Contact info and a resume are also included.
 
 ## Technology Used
-'- HTML'
-'- CSS'
-'- Bootstrap'
+-- HTML
+-- CSS
+-- Bootstrap
 
 ## Footer
 Made with ❤️ by Josh West 
