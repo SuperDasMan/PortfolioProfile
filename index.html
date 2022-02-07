@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to my Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body class="flex-container flex-column min-100-vh">
+    <header class="hero row">
+      <h1>Joshua West</h1>
+      <img src="./assets/images/ChillinOut.jpg" 
+        alt="Josh chillin"
+        style="min-width:100px;min-height:125px;max-width:250px;max-height:300px;">
+      <nav class="top-links">
+        <a href="#About">About Me</a>
+        <a href="#Completed">Portfolio</a>
+        <a href="#Contact">Contact Me</a>
+        <a href="./assets/images/joshua.west.resume.2021.docx">Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about row">
+        <article>
+          <h2>About Me</h2>
+          <div>
+            <p>I am a 35 year-old single dad. Having grown up in Las Vegas, NV, I attended Advanced Technologies Academy, with a joint major of Computer Graphics and CADD. I moved fully into CADD in sophomore year, and continued with that until graduation. Shortly after graduation, I moved up to St. George, UT, and worked in retail and manufacturing for several years, during which time, I got married and had a child, and then soon divorced. After I was downsized from the manufacturing job, I entered the field of supported living for people with disabilities. I stayed in that field for nearly a decade, and had even worked my way into management during the last few years. I loved helping others, but ultimately, I knew it wasn’t something I could do forever, so I left in search of something new and more fulfilling. I thought back to my high school days of writing joke websites just for entertainment, and my hobby of reverse-engineering video game cheat codes in order to write my own. It was around that time my girlfriend gave me the idea of going back to school to turn an old hobby into a real career, and the rest, as they say, is history.
+            </p>
+          </div>
+        </article>
+      </section>
+      <div class="portfolio row card-container">
+        <h2>Completed Works</h2>
+        <card class="works card-body" id="col col-sm-12 col-md-6 col-lg-4">
+          <header>Brain-Food</header>
+          <img src="./assets/images/Brain-Food.png" alt="Brain-Food: an app for finding new podcasts and books" />
+          <p class="label">HTML/CSS/Bulma/Javascript/Third-Party API</p>
+        </card>
+        <card class="works card-body">
+          <header>Run Buddy</header>
+          <img src="./assets/images/Run Buddy.jpg" alt="Run Buddy: an app for those who enjoy running" />
+          <p class="label">HTML/CSS</p>
+        </card>
+        <card class="works card-body">
+          <header>CSS Resets</header>
+          <img src="./assets/images/CSS-Resets.jpg" alt="CSS Resets" />
+          <p class="label">HTML/CSS</p>
+        </card>
+        <card class="works card-body">
+          <header>CSS Box Styling</header>
+          <img src="./assets/images/CSS-Styling.jpg" alt="CSS Box Styling" />
+          <p class="label">HTML/CSS</p>
+        </card>
+        <card class="works card-body">
+          <header>Responsive Web Design</header>
+          <img src="./assets/images/Responsive-Design.jpg" alt="Responsive Web Design" />
+          <p class="label">HTML/CSS</p>
+        </card>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact row">
+        <h2>Contact Me</h2>
+        <section class="contact-info">
+          <ul id="footlinks">
+            <li class="contact-links"><header>Phone #</header>
+              <a href="tel:+14353132399">435.313.2399</a></li> 
+            <li class="contact-links"><header>Email</header>
+              <a href="mailto:joshwest.biz@gmail.com">joshwest.biz@gmail.com</a></li>
+            <li class="contact-links"><header>GitHub</header>
+              <a href="www.github.com/SuperDasMan">GitHub.com/SuperDasMan</a></li>
+            <li class="contact-links"><header>LinkdIn</header>
+              <a href="https://www.linkedin.com/in/joshwest-dasman/">Linkdin.com/in/joshwest-dasman</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="footnote">Made with ❤️ by Josh West ©️2022 SuperDasMan Studios, LLC.</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-range/4.0.2/moment-range.js" integrity="sha512-XKgbGNDruQ4Mgxt7026+YZFOqHY6RsLRrnUJ5SVcbWMibG46pPAC97TJBlgs83N/fqPTR0M89SWYOku6fQPgyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
