@@ -11,5 +11,4 @@
 ### Bootstrap
 
 ## Footer
-###Made with ❤️ by Josh West 
-###©️2022 SuperDasMan Studios, LLC.
+Made with ❤️ by Josh West <BR> ©2022 SuperDasMan Studios, LLC.
